@@ -1,0 +1,17 @@
+# Core ML & NLP
+torch
+transformers
+datasets
+
+# Explainability
+shap
+lime
+
+# Data Processing & Metrics
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+ipykernel
