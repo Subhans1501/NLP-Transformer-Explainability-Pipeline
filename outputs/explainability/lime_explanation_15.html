@@ -37089,10 +37089,10 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divZEF5CZBH5BKJXDH"></div>
+        <div class="lime top_div" id="top_divEZ2NCAZGY0TJ0A1"></div>
         
         <script>
-        var top_div = d3.select('#top_divZEF5CZBH5BKJXDH').classed('lime top_div', true);
+        var top_div = d3.select('#top_divEZ2NCAZGY0TJ0A1').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
@@ -37104,10 +37104,10 @@
             var exp = new lime.Explanation(["Negative", "Positive"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Worst", -0.3205756616093144], ["rude", -0.3162784273933423], ["was", -0.020711925420251596], ["customer", -0.0125246735636631], ["The", -0.012133701662970321], ["incredibly", -0.01123635329916256]], 1, exp_div);
+                exp.show([["rude", -0.3265316532725317], ["Worst", -0.32010541418344735], ["customer", -0.027052582338765195], ["was", -0.013858987613775417], ["ever", -0.00697394991855108], ["The", 0.004483825068687723]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["Worst", 0, -0.3205756616093144], ["rude", 57, -0.3162784273933423], ["was", 42, -0.020711925420251596], ["customer", 25, -0.0125246735636631], ["The", 21, -0.012133701662970321], ["incredibly", 46, -0.01123635329916256]], 1, "Worst purchase ever. The customer service was incredibly rude.", raw_div, true);
+            exp.show_raw_text([["rude", 57, -0.3265316532725317], ["Worst", 0, -0.32010541418344735], ["customer", 25, -0.027052582338765195], ["was", 42, -0.013858987613775417], ["ever", 15, -0.00697394991855108], ["The", 21, 0.004483825068687723]], 1, "Worst purchase ever. The customer service was incredibly rude.", raw_div, true);
             
         </script>
         </body></html>

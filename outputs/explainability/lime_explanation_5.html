@@ -37089,10 +37089,10 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divO8RNS9IWZOF4955"></div>
+        <div class="lime top_div" id="top_divGJBCNACNSO4Y3IV"></div>
         
         <script>
-        var top_div = d3.select('#top_divO8RNS9IWZOF4955').classed('lime top_div', true);
+        var top_div = d3.select('#top_divGJBCNACNSO4Y3IV').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
@@ -37104,10 +37104,10 @@
             var exp = new lime.Explanation(["Negative", "Positive"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Worst", -0.3252539388284207], ["rude", -0.3118845298654583], ["customer", -0.016568918376552784], ["The", -0.015926542863188606], ["was", -0.009513666722125277], ["ever", -0.00830135153804196]], 1, exp_div);
+                exp.show([["rude", -0.330995478548222], ["Worst", -0.3220447736265208], ["was", -0.021937389026732347], ["ever", -0.02192398539079322], ["purchase", 0.019099677377594576], ["The", -0.014525567584386756]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["Worst", 0, -0.3252539388284207], ["rude", 57, -0.3118845298654583], ["customer", 25, -0.016568918376552784], ["The", 21, -0.015926542863188606], ["was", 42, -0.009513666722125277], ["ever", 15, -0.00830135153804196]], 1, "Worst purchase ever. The customer service was incredibly rude.", raw_div, true);
+            exp.show_raw_text([["rude", 57, -0.330995478548222], ["Worst", 0, -0.3220447736265208], ["was", 42, -0.021937389026732347], ["ever", 15, -0.02192398539079322], ["purchase", 6, 0.019099677377594576], ["The", 21, -0.014525567584386756]], 1, "Worst purchase ever. The customer service was incredibly rude.", raw_div, true);
             
         </script>
         </body></html>
